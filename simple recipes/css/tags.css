@@ -1,0 +1,28 @@
+#container{
+    flex-wrap: wrap;
+}
+.tag{
+    background-color: rgb(71, 74, 86);
+    width: 320px;
+    display: block;
+  padding: 20px;
+ /*   padding-left: 120px;
+    padding-right: 120px;*/
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+.tag h1{
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+}
+.tag span{
+    color: rgba(255, 255, 255, 0.846);
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0px;
+}

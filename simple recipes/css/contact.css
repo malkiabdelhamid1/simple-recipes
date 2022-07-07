@@ -1,0 +1,97 @@
+#main-body{
+    width: 85%;
+}
+#intro{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#intro #info{
+    display: flex;
+    padding-right: 10px;
+    width: max-content;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 60%;
+}
+h1{
+    font-size: 35px;
+    color: #0f172a;
+    align-self: left;
+    justify-self: left;
+    font-weight: 200;
+}
+p{
+    color: #000;
+   justify-self: left;
+   /* align-self: center;*/
+   width: 100%;
+   text-align: left;
+   margin-top: 20px;
+   line-height: 30px;
+}
+h3{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 200;
+}
+#recipes{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.recipe{
+    width: 350px;
+    height: 270px;
+    display: block;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.recipe img{
+    width: 350px;
+    height: 170px;
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: rgb(205, 201, 201) 0px 0px 6px 0px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+form span{
+    width: 100%;
+    text-align: left;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+}
+form input, #message{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f8fafc;
+    margin-bottom: 15px;
+    border: solid #e2e8f0 1px;
+
+
+}
+#message{
+    height: 130px;
+}
+#submit{
+    display: block;
+    color: white;
+    background-color: #645cff;
+    border-radius: 5px;
+    font-size:20px;
+    padding: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: transparent;
+}

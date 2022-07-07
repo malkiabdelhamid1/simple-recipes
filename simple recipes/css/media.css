@@ -1,0 +1,156 @@
+@media(max-width:800px){
+    body,html{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #f8fafc;
+    }
+   /* body{
+        overflow: hidden;
+    }*/
+    header{
+        justify-content: space-between;
+    }
+   header #nav,header #contact{
+        display: none;
+    }
+    header #logo{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    #hamburger{
+        display: block;
+        padding: 5px;
+        background-color: #645cff;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    #hamburger img{
+        width: 30px;
+        display: block;
+    }
+    #pop-up{
+        width: 100%;
+        height: 100%;
+        display: none;
+        align-content: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 50;
+        background-color: rgba(231, 236, 248, 0.848);
+        top: 0;
+    }
+    #mob-nav{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffff;
+        position: absolute;
+        width: 90%;
+        list-style-type: none;
+        top: 70px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mob-navelement{
+        font-size: 25px;
+        font-weight: 100;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #mob-nav #mob-contact{
+        width: fit-content;
+        display: block;
+        color: white;
+        background-color: var(--violet);
+        border-radius: 5px;
+        font-size:20px;
+        padding: 17px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        align-self: center;
+        margin-top: 20px;
+
+    }
+    #main-body{
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    /*home/////////////////*/
+    #no-fluff{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    #no-fluff h1{
+        font-size: 35px;
+        font-weight: 200;
+    }
+    #no-fluff p{
+        font-size: 20px;
+        word-spacing: 5px;
+    }
+    #container{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .recipe{
+        width: 100%;
+        height: 270px;
+        display: block;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+    .recipe img{
+        width: 100%;
+        height: 170px;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+    #recipes,#tags{
+        width: 100%;
+    }
+    #no-fluff{
+        width: 100%;
+    }
+    #tags h1{
+        font-size: 30px;
+        font-family:  Helvetica, sans-serif;
+        font-weight: 100;
+        width: fit-content;
+        width: 100%;
+    }
+    #tags{
+        width: fit-content;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tags-element{
+        margin-right: 20px;
+    }
+    /*tags/////////////////*/
+    .tag{
+        align-self: center;
+        justify-self: center;
+        margin-right: 0px;
+    }
+    /*about/////////////////*/
+    #intro{
+        flex-direction: column-reverse;
+    }
+    #intro #info,#intro #img{
+        width: 100%;
+    }
+    /*contact///////////////*/
+    form{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #intro{
+        width: 100%;
+    }
+}
